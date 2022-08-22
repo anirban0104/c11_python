@@ -1,5 +1,5 @@
-# print 1-100
-i=0
-count=int(input("ENer a nas"))
-for i in range(count+1):
-    print(i)
+totalStudents=int(input("Enter the total number of students: "))
+studentList=[]
+for i in range(totalStudents):
+    studentList=[input("Enter the name of Student: ")]
+print(studentList)
